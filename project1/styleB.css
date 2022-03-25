@@ -1,0 +1,28 @@
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 100%;
+}
+.container > p:last-child {
+	position: fixed;
+	bottom: 0px;
+    right: 0px;
+}
+.container p {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 40px;
+	width: 100px;
+	height: 150px;
+	border-left: 10px dotted #D0D0FF;
+	padding-left: 10px;
+    margin-left: 10px;
+	text-align: left;
+	background-color: #eeeff2;
+}
+.container p:hover {
+	background-color: yellow;
+	cursor: pointer;
+    color: goldenrod;
+}
